@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreCrud.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:NetCoreCrud.WebApi.Controllers.CompanyController.Post(NetCoreCrud.Entities.Company)">
+            <summary>
+            Şirket kaydetme methodu
+            </summary>
+            <param name="company"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreCrud.WebApi.Controllers.CompanyController.Get">
+            <summary>
+            Şirketleri sıralama metodu
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
