@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using NetCoreCrud.DataAccess;
 
 namespace NetCoreCrud.DataAccess.Migrations
 {
     [DbContext(typeof(NetCoreCrudDbContext))]
-    partial class NetCoreCrudDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220220114420_update-tables-property")]
+    partial class updatetablesproperty
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
